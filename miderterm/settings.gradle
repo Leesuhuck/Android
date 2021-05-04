@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "miderterm2_1804100283"

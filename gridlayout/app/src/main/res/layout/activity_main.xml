@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="5"
+    android:layout_margin="10dp"
+    >
+    <EditText
+        android:id="@+id/numberFrist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="숫자1"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"/>
+
+    <EditText
+        android:id="@+id/numberSed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="숫자2"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal"/>
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/night"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/plus"
+        android:text="더하기"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="5"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/maius"
+        android:text="빼기"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="5"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/pplus"
+        android:text="곱하기"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="5"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/mamaius"
+        android:text="나누기"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="5"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/delects"
+        android:text="초기화"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="5"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/values"
+        android:text="계산 결과 : "
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="5"
+        android:layout_columnWeight="1"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/red"
+        />
+
+
+
+</GridLayout>

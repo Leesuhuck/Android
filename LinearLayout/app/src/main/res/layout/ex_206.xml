@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp"
+            android:text="오른쪽"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:paddingRight="50dp"
+            android:text="가운데"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:paddingTop="30dp"
+            android:paddingLeft="50dp"
+            android:text="왼쪽"/>
+
+
+
+</LinearLayout>
